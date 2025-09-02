@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Elite Publications - Premier Academic Research & Publishing Services</title>
+    <meta name="description" content="Leading academic publishing consultancy specializing in IEEE, Scopus, and SCI-indexed journal publications. Expert research writing, book publishing, and scholarly services.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-blue: #1e40af;
+            --primary-navy: #1e293b;
+            --accent-gold: #f59e0b;
+            --text-gray: #374151;
+            --light-gray: #f8fafc;
+        }
+        
+        body { 
+            font-family: 'Inter', sans-serif; 
+            scroll-behavior: smooth;
+            line-height: 1.6;
+        }
+        
+        .font-display { 
+            font-family: 'Playfair Display', serif; 
+        }
+        
+        .professional-gradient { 
+            background: linear-gradient(135deg, var(--primary-navy) 0%, var(--primary-blue) 100%); 
+        }
+        
+        .card-professional { 
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); 
+            border: 1px solid #e5e7eb;
+        }
+        
+        .card-professional:hover { 
+            transform: translateY(-4px); 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1); 
+            border-color: var(--primary-blue);
+        }
+        
+        .section-padding {
+            padding: 5rem 0;
+        }
+        
+        .container-max {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        
+        .text-balance {
+            text-wrap: balance;
+        }
+        
+        .professional-shadow {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        
+        .professional-shadow-lg {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        .nav-link {
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: var(--accent-gold);
+        }
+        
+        .stats-counter {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+        
+        .service-icon {
+            background: linear-gradient(135deg, var(--primary-blue), var(--primary-navy));
+        }
+        
+        .testimonial-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+        }
+        
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+        
+        .fade-in-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .mobile-menu {
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .mobile-menu.active {
+            transform: translateX(0);
+        }
+        
+        .professional-btn {
+            background: linear-gradient(135deg, var(--primary-blue), var(--primary-navy));
+            transition: all 0.3s ease;
+        }
+        
+        .professional-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(30, 64, 175, 0.3);
+        }
+        
+        .accent-btn {
+            background: var(--accent-gold);
+            color: white;
+            transition: all 0.3s ease;
+        }
+        
+        .accent-btn:hover {
+            background: #d97706;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Announcement / Small Content Section -->
+<section class="bg-yellow-400 text-gray-900 text-center py-2">
+  <p class="text-sm font-medium">
+    🚀 Our website is currently under planning and development. We will be launching it very soon.
+  </p>
+</section>
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50 border-b border-gray-100">
+        <div class="container-max">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <a href="#">
+                        <img src="de.png" alt="Team Elite Publications Logo" class="w-14 h-14 rounded-xl professional-shadow">
+                    </a>
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-900 font-display">Team Elite Publications</h1>
+                        <p class="text-sm text-gray-600 font-medium">Academic Research & Publishing Excellence</p>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex space-x-8">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-blue-600 font-medium">Home</a>
+                    <a href="#services" class="nav-link text-gray-700 hover:text-blue-600 font-medium">Services</a>
+                    <a href="#expertise" class="nav-link text-gray-700 hover:text-blue-600 font-medium">Expertise</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-blue-600 font-medium">About</a>
+                    <a href="#testimonials" class="nav-link text-gray-700 hover:text-blue-600 font-medium">Testimonials</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600 font-medium">Contact</a>
+                </nav>
+                
+                <!-- CTA Button -->
+                <div class="hidden lg:flex items-center space-x-4">
+                    <button onclick="scrollToContact()" class="professional-btn text-white px-6 py-3 rounded-lg font-semibold professional-shadow">
+                        Get Consultation
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu lg:hidden fixed inset-y-0 left-0 w-80 bg-white shadow-2xl z-50">
+            <div class="p-6">
+                <div class="flex items-center justify-between mb-8">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-12 h-12 professional-gradient rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold">TEP</span>
+                        </div>
+                        <span class="font-bold text-gray-900 font-display">Menu</span>
+                    </div>
+                    <button id="close-mobile-menu" class="p-2 rounded-md text-gray-700 hover:bg-gray-100">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                <nav class="space-y-2">
+                    <a href="#home" class="block py-4 px-4 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg font-medium transition-colors">Home</a>
+                    <a href="#services" class="block py-4 px-4 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg font-medium transition-colors">Services</a>
+                    <a href="#expertise" class="block py-4 px-4 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg font-medium transition-colors">Expertise</a>
+                    <a href="#about" class="block py-4 px-4 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg font-medium transition-colors">About</a>
+                    <a href="#testimonials" class="block py-4 px-4 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg font-medium transition-colors">Testimonials</a>
+                    <a href="#contact" class="block py-4 px-4 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg font-medium transition-colors">Contact</a>
+                </nav>
+                <div class="mt-8 pt-6 border-t border-gray-200">
+                    <a href="tel:9363046743" class="block py-3 px-4 text-blue-600 hover:bg-blue-50 rounded-lg font-medium mb-4">
+                        <i class="fas fa-phone mr-3"></i>Schedule Call
+                    </a>
+                    <button onclick="scrollToContact()" class="w-full professional-btn text-white py-3 px-4 rounded-lg font-semibold">
+                        Get Consultation
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="section-padding professional-gradient text-white relative overflow-hidden">
+        <!-- Professional Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <svg width="100%" height="100%" viewBox="0 0 1200 800">
+                <defs>
+                    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="1"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)" />
+            </svg>
+        </div>
+        
+        <div class="container-max relative z-10">
+            <div class="max-w-4xl mx-auto text-center fade-in-up">
+                <div class="mb-6">
+                    <span class="inline-block bg-white/20 backdrop-blur-sm text-white px-6 py-2 rounded-full text-sm font-semibold border border-white/30">
+                        Premier Academic Publishing Services
+                    </span>
+                </div>
+                
+                <h2 class="text-5xl md:text-7xl font-bold mb-8 leading-tight font-display">
+                    Elevating Research to 
+                    <span class="text-yellow-400">Global Excellence</span>
+                </h2>
+                
+                <p class="text-xl md:text-2xl mb-12 max-w-3xl mx-auto opacity-90 leading-relaxed font-light">
+                    Partner with leading academic professionals for IEEE, Scopus, and SCI-indexed publications. 
+                    We deliver research excellence with guaranteed quality and international standards.
+                </p>
+                
+                <!-- Trust Indicators -->
+                <div class="grid md:grid-cols-4 gap-8 mb-12 max-w-4xl mx-auto">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                        <div class="text-3xl mb-3">🎯</div>
+                        <h3 class="font-semibold text-lg mb-2">100% Original</h3>
+                        <p class="text-sm opacity-90">Plagiarism-free guarantee</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                        <div class="text-3xl mb-3">⚡</div>
+                        <h3 class="font-semibold text-lg mb-2">Expert Team</h3>
+                        <p class="text-sm opacity-90">PhD-qualified researchers</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                        <div class="text-3xl mb-3">🏆</div>
+                        <h3 class="font-semibold text-lg mb-2">Proven Results</h3>
+                        <p class="text-sm opacity-90">20+ successful publications</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                        <div class="text-3xl mb-3">🔒</div>
+                        <h3 class="font-semibold text-lg mb-2">Confidential</h3>
+                        <p class="text-sm opacity-90">Complete privacy assured</p>
+                    </div>
+                </div>
+                
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                    <button onclick="scrollToServices()" class="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-10 py-4 rounded-xl font-bold text-lg transition-all professional-shadow-lg">
+                        <i class="fas fa-rocket mr-3"></i>Explore Services
+                    </button>
+                    <button onclick="scrollToContact()" class="border-2 border-white text-white px-10 py-4 rounded-xl font-semibold text-lg hover:bg-white hover:text-gray-900 transition-all">
+                        <i class="fas fa-calendar mr-2"></i>Schedule Consultation
+                    </button>
+                </div>
+                
+                <!-- Statistics -->
+                <div class="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
+                    <div class="text-center">
+                        <div class="stats-counter text-4xl font-bold mb-2">25+</div>
+                        <div class="text-sm opacity-80">Papers Published</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="stats-counter text-4xl font-bold mb-2">30+</div>
+                        <div class="text-sm opacity-80">Books Published</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="stats-counter text-4xl font-bold mb-2">98%</div>
+                        <div class="text-sm opacity-80">Success Rate</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="stats-counter text-4xl font-bold mb-2">24/7</div>
+                        <div class="text-sm opacity-80">Support</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding bg-gray-50">
+        <div class="container-max">
+            <div class="text-center mb-16 fade-in-up">
+                <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-display">Professional Services</h3>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Comprehensive academic solutions designed to meet the highest international publication standards
+                </p>
+            </div>
+            
+            <!-- Main Services Grid -->
+            <div class="grid lg:grid-cols-3 gap-10 mb-16">
+                <!-- Research Paper Writing -->
+                <div class="bg-white rounded-2xl p-8 card-professional professional-shadow fade-in-up">
+                    <div class="service-icon w-16 h-16 rounded-xl flex items-center justify-center mb-6 professional-shadow">
+                        <i class="fas fa-file-alt text-2xl text-white"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-4 font-display">Research Paper Writing</h4>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Expert manuscript preparation for IEEE, Scopus, and SCI-indexed journals with rigorous methodology and comprehensive analysis.
+                    </p>
+                    
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
+                        <h5 class="font-semibold text-gray-900 mb-2">Specialized Fields</h5>
+                        <p class="text-sm text-gray-600">Computer Science • Engineering • Medicine • Business • Life Sciences</p>
+                    </div>
+                    
+                    <ul class="space-y-3 text-gray-600 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>IEEE Standards Compliance</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>Scopus Indexed Journals</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>Statistical Analysis & Visualization</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>Comprehensive Literature Review</li>
+                    </ul>
+                    
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <p class="font-semibold text-gray-900 mb-2">Delivery Timeline</p>
+                        <p class="text-sm text-gray-600">Research Papers: 5-7 business days</p>
+                    </div>
+                </div>
+
+                <!-- Book Publishing -->
+                <div class="bg-white rounded-2xl p-8 card-professional professional-shadow fade-in-up">
+                    <div class="service-icon w-16 h-16 rounded-xl flex items-center justify-center mb-6 professional-shadow">
+                        <i class="fas fa-book text-2xl text-white"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-4 font-display">Academic Book Publishing</h4>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Complete book publishing services including ISBN registration, DOI assignment, and global distribution through major platforms.
+                    </p>
+                    
+                    <div class="bg-purple-50 border-l-4 border-purple-500 p-4 mb-6">
+                        <h5 class="font-semibold text-gray-900 mb-2">Complete Package</h5>
+                        <p class="text-sm text-gray-600">ISBN • DOI • Google Books • Amazon • Professional Design</p>
+                    </div>
+                    
+                    <ul class="space-y-3 text-gray-600 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>ISBN Registration</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>DOI Assignment</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>Professional Cover Design</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>Global Distribution</li>
+                    </ul>
+                    
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <p class="font-semibold text-gray-900 mb-2">Book Types</p>
+                        <p class="text-sm text-gray-600">Academic Textbooks • Research Monographs • Edited Volumes</p>
+                    </div>
+                </div>
+
+                <!-- Editorial Services -->
+                <div class="bg-white rounded-2xl p-8 card-professional professional-shadow fade-in-up">
+                    <div class="service-icon w-16 h-16 rounded-xl flex items-center justify-center mb-6 professional-shadow">
+                        <i class="fas fa-edit text-2xl text-white"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-gray-900 mb-4 font-display">Editorial & Formatting</h4>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Professional editing, proofreading, and formatting services aligned with specific journal guidelines and academic standards.
+                    </p>
+                    
+                    <div class="bg-green-50 border-l-4 border-green-500 p-4 mb-6">
+                        <h5 class="font-semibold text-gray-900 mb-2">Advanced Tools</h5>
+                        <p class="text-sm text-gray-600">LaTeX • EndNote • Mendeley • Citation Management</p>
+                    </div>
+                    
+                    <ul class="space-y-3 text-gray-600 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>Journal Guidelines Compliance</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>Language Enhancement</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>Citation Formatting</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>Quality Assurance</li>
+                    </ul>
+                    
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <p class="font-semibold text-gray-900 mb-2">Service Levels</p>
+                        <p class="text-sm text-gray-600">Proofreading • Copy Editing • Substantive Editing</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Additional Services -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-xl professional-shadow card-professional border-l-4 border-orange-500">
+                    <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-chart-bar text-xl text-orange-600"></i>
+                    </div>
+                    <h5 class="text-lg font-semibold text-gray-900 mb-3">Statistical Analysis</h5>
+                    <p class="text-gray-600 text-sm leading-relaxed">Advanced data analysis using SPSS, R, Python, and MATLAB for research validation.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl professional-shadow card-professional border-l-4 border-red-500">
+                    <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-search text-xl text-red-600"></i>
+                    </div>
+                    <h5 class="text-lg font-semibold text-gray-900 mb-3">Literature Review</h5>
+                    <p class="text-gray-600 text-sm leading-relaxed">Comprehensive systematic reviews and meta-analyses for strong research foundation.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl professional-shadow card-professional border-l-4 border-indigo-500">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-bullseye text-xl text-indigo-600"></i>
+                    </div>
+                    <h5 class="text-lg font-semibold text-gray-900 mb-3">Grant Proposals</h5>
+                    <p class="text-gray-600 text-sm leading-relaxed">Research proposals for funding agencies and grant applications with high success rates.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl professional-shadow card-professional border-l-4 border-teal-500">
+                    <div class="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-graduation-cap text-xl text-teal-600"></i>
+                    </div>
+                    <h5 class="text-lg font-semibold text-gray-900 mb-3">Thesis Support</h5>
+                    <p class="text-gray-600 text-sm leading-relaxed">Complete dissertation and thesis writing support for graduate and doctoral students.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="section-padding bg-white">
+        <div class="container-max">
+            <div class="text-center mb-16 fade-in-up">
+                <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-display">Our Research Process</h3>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    A systematic, quality-driven approach ensuring publication-ready research that meets international standards
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-5 gap-8 mb-16">
+                <div class="text-center fade-in-up">
+                    <div class="w-20 h-20 professional-gradient rounded-full flex items-center justify-center mx-auto mb-6 professional-shadow-lg">
+                        <span class="text-white font-bold text-2xl">1</span>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-4">Consultation</h4>
+                    <p class="text-gray-600 leading-relaxed">Understanding research objectives and target publication requirements</p>
+                </div>
+                
+                <div class="text-center fade-in-up">
+                    <div class="w-20 h-20 professional-gradient rounded-full flex items-center justify-center mx-auto mb-6 professional-shadow-lg">
+                        <span class="text-white font-bold text-2xl">2</span>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-4">Literature Analysis</h4>
+                    <p class="text-gray-600 leading-relaxed">Comprehensive review and identification of research gaps</p>
+                </div>
+                
+                <div class="text-center fade-in-up">
+                    <div class="w-20 h-20 professional-gradient rounded-full flex items-center justify-center mx-auto mb-6 professional-shadow-lg">
+                        <span class="text-white font-bold text-2xl">3</span>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-4">Research Execution</h4>
+                    <p class="text-gray-600 leading-relaxed">Data collection, analysis, and methodology implementation</p>
+                </div>
+                
+                <div class="text-center fade-in-up">
+                    <div class="w-20 h-20 professional-gradient rounded-full flex items-center justify-center mx-auto mb-6 professional-shadow-lg">
+                        <span class="text-white font-bold text-2xl">4</span>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-4">Professional Writing</h4>
+                    <p class="text-gray-600 leading-relaxed">Manuscript preparation following journal-specific guidelines</p>
+                </div>
+                
+                <div class="text-center fade-in-up">
+                    <div class="w-20 h-20 professional-gradient rounded-full flex items-center justify-center mx-auto mb-6 professional-shadow-lg">
+                        <span class="text-white font-bold text-2xl">5</span>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-4">Quality Assurance</h4>
+                    <p class="text-gray-600 leading-relaxed">Thorough review, editing, and plagiarism verification</p>
+                </div>
+            </div>
+            
+            <!-- Quality Promise -->
+            <div class="bg-gray-50 rounded-2xl p-10 professional-shadow-lg fade-in-up">
+                <h4 class="text-3xl font-bold text-center text-gray-900 mb-8 font-display">Quality Assurance Promise</h4>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-shield-alt text-2xl text-green-600"></i>
+                        </div>
+                        <h5 class="font-semibold text-gray-900 mb-3">100% Original Content</h5>
+                        <p class="text-gray-600">Plagiarism-free guarantee with detailed verification reports</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-clock text-2xl text-blue-600"></i>
+                        </div>
+                        <h5 class="font-semibold text-gray-900 mb-3">Timely Delivery</h5>
+                        <p class="text-gray-600">Meeting deadlines without compromising research quality</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-redo text-2xl text-purple-600"></i>
+                        </div>
+                        <h5 class="font-semibold text-gray-900 mb-3">Unlimited Revisions</h5>
+                        <p class="text-gray-600">Continuous refinement until complete satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="section-padding professional-gradient text-white">
+        <div class="container-max">
+            <div class="text-center mb-16 fade-in-up">
+                <h3 class="text-4xl font-bold mb-6 font-display">Proven Track Record</h3>
+                <p class="text-xl opacity-90 max-w-2xl mx-auto">
+                    Delivering measurable results in academic publishing with a commitment to excellence
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 fade-in-up">
+                    <div class="stats-counter text-5xl font-bold mb-4">25+</div>
+                    <p class="text-xl font-semibold mb-2">Research Papers</p>
+                    <p class="text-sm opacity-75">Published in indexed journals</p>
+                </div>
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 fade-in-up">
+                    <div class="stats-counter text-5xl font-bold mb-4">30+</div>
+                    <p class="text-xl font-semibold mb-2">Academic Books</p>
+                    <p class="text-sm opacity-75">With ISBN & DOI registration</p>
+                </div>
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 fade-in-up">
+                    <div class="stats-counter text-5xl font-bold mb-4">98%</div>
+                    <p class="text-xl font-semibold mb-2">Client Satisfaction</p>
+                    <p class="text-sm opacity-75">Based on project reviews</p>
+                </div>
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 fade-in-up">
+                    <div class="stats-counter text-5xl font-bold mb-4">24/7</div>
+                    <p class="text-xl font-semibold mb-2">Expert Support</p>
+                    <p class="text-sm opacity-75">Global research community</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-gray-50">
+        <div class="container-max">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="fade-in-up">
+                    <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-8 font-display">Why Choose Team Elite Publications?</h3>
+                    <p class="text-xl text-gray-700 mb-10 leading-relaxed">
+                        We combine academic expertise with professional publishing experience to deliver research that meets the highest international standards. Our commitment to quality, confidentiality, and timely delivery has made us a trusted partner for researchers worldwide.
+                    </p>
+                    
+                    <div class="space-y-8">
+                        <div class="flex items-start space-x-6">
+                            <div class="w-14 h-14 professional-gradient rounded-xl flex items-center justify-center flex-shrink-0 professional-shadow">
+                                <i class="fas fa-globe text-white text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-3">International Standards</h4>
+                                <p class="text-gray-600 leading-relaxed">All research meets rigorous international publication standards and journal-specific requirements for maximum acceptance rates.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-6">
+                            <div class="w-14 h-14 professional-gradient rounded-xl flex items-center justify-center flex-shrink-0 professional-shadow">
+                                <i class="fas fa-users text-white text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-3">Expert Team</h4>
+                                <p class="text-gray-600 leading-relaxed">PhD-qualified researchers and subject matter experts with extensive publication experience across diverse academic fields.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-6">
+                            <div class="w-14 h-14 professional-gradient rounded-xl flex items-center justify-center flex-shrink-0 professional-shadow">
+                                <i class="fas fa-lock text-white text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-3">Complete Confidentiality</h4>
+                                <p class="text-gray-600 leading-relaxed">Strict confidentiality protocols ensure your research and personal information remain secure throughout the entire process.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-10 rounded-2xl professional-shadow-lg fade-in-up">
+                    <h4 class="text-2xl font-bold text-gray-900 mb-8 text-center font-display">Our Expertise Areas</h4>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-laptop-code text-2xl text-blue-600"></i>
+                            </div>
+                            <h5 class="font-semibold text-gray-900 mb-2">Computer Science</h5>
+                            <p class="text-sm text-gray-600">AI, ML, Data Science</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-cogs text-2xl text-green-600"></i>
+                            </div>
+                            <h5 class="font-semibold text-gray-900 mb-2">Engineering</h5>
+                            <p class="text-sm text-gray-600">All Engineering Disciplines</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-red-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-heartbeat text-2xl text-red-600"></i>
+                            </div>
+                            <h5 class="font-semibold text-gray-900 mb-2">Medical Sciences</h5>
+                            <p class="text-sm text-gray-600">Clinical & Biomedical Research</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-chart-line text-2xl text-purple-600"></i>
+                            </div>
+                            <h5 class="font-semibold text-gray-900 mb-2">Business</h5>
+                            <p class="text-sm text-gray-600">Management & Economics</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 p-6 bg-gray-50 rounded-xl">
+                        <h5 class="font-semibold text-gray-900 mb-4 text-center">Academic Credentials</h5>
+                        <div class="flex justify-center space-x-4 text-sm">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">PhD Writers</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full">Subject Experts</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full">Native Editors</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding bg-white">
+        <div class="container-max">
+            <div class="text-center mb-16 fade-in-up">
+                <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-display">Client Testimonials</h3>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Trusted by researchers and academics worldwide for exceptional quality and professional service
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 gap-10 mb-16">
+                <div class="testimonial-card p-8 rounded-2xl professional-shadow-lg card-professional fade-in-up">
+                    <div class="flex items-center mb-6">
+                        <div class="flex text-yellow-400 text-lg mr-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="text-gray-600 font-semibold">5.0/5</span>
+                    </div>
+                    <p class="text-gray-700 mb-8 text-lg italic leading-relaxed">
+                        "Team Elite Publications delivered exceptional quality for my IEEE journal submission. Their attention to detail and understanding of publication standards resulted in a successful publication in a top-tier journal."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-14 h-14 professional-gradient rounded-full flex items-center justify-center mr-4 professional-shadow">
+                            <span class="text-white font-bold">DR</span>
+                        </div>
+                        <div>
+                            <h5 class="font-semibold text-gray-900">Dr. Rajesh Kumar</h5>
+                            <p class="text-gray-600 text-sm">Professor, IIT Delhi</p>
+                            <p class="text-xs text-blue-600 mt-1">IEEE Transactions Publication</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card p-8 rounded-2xl professional-shadow-lg card-professional border-2 border-yellow-200 fade-in-up">
+                    <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-gray-900 px-4 py-1 rounded-full text-xs font-bold">
+                        FEATURED
+                    </div>
+                    <div class="flex items-center mb-6">
+                        <div class="flex text-yellow-400 text-lg mr-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="text-gray-600 font-semibold">5.0/5</span>
+                    </div>
+                    <p class="text-gray-700 mb-8 text-lg italic leading-relaxed">
+                        "Outstanding service! They handled the complete book publishing process including ISBN registration and global distribution. The book is now available on major platforms. Highly professional team."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-14 h-14 professional-gradient rounded-full flex items-center justify-center mr-4 professional-shadow">
+                            <span class="text-white font-bold">SM</span>
+                        </div>
+                        <div>
+                            <h5 class="font-semibold text-gray-900">Prof. Sarah Mitchell</h5>
+                            <p class="text-gray-600 text-sm">Faculty, MIT</p>
+                            <p class="text-xs text-purple-600 mt-1">Complete Book Publication</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card p-8 rounded-2xl professional-shadow-lg card-professional fade-in-up">
+                    <div class="flex items-center mb-6">
+                        <div class="flex text-yellow-400 text-lg mr-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="text-gray-600 font-semibold">5.0/5</span>
+                    </div>
+                    <p class="text-gray-700 mb-8 text-lg italic leading-relaxed">
+                        "Professional, timely, and high-quality research support. They helped me publish in a Scopus-indexed journal within the promised timeline. The methodology and analysis were exemplary."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-14 h-14 professional-gradient rounded-full flex items-center justify-center mr-4 professional-shadow">
+                            <span class="text-white font-bold">MA</span>
+                        </div>
+                        <div>
+                            <h5 class="font-semibold text-gray-900">Dr. Mohammed Ali</h5>
+                            <p class="text-gray-600 text-sm">Researcher, Johns Hopkins</p>
+                            <p class="text-xs text-green-600 mt-1">Scopus Indexed Publication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Client Satisfaction Metrics -->
+            <div class="bg-gray-50 rounded-2xl p-10 professional-shadow-lg fade-in-up">
+                <h4 class="text-2xl font-bold text-center text-gray-900 mb-8 font-display">Client Satisfaction Metrics</h4>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="stats-counter text-4xl font-bold text-green-600 mb-2">98%</div>
+                        <div class="text-gray-600 font-medium">Satisfaction Rate</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="stats-counter text-4xl font-bold text-blue-600 mb-2">4.9/5</div>
+                        <div class="text-gray-600 font-medium">Average Rating</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="stats-counter text-4xl font-bold text-purple-600 mb-2">95%</div>
+                        <div class="text-gray-600 font-medium">Repeat Clients</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-gray-50">
+        <div class="container-max">
+            <div class="text-center mb-16 fade-in-up">
+                <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-display">Start Your Research Journey</h3>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Ready to elevate your research to international standards? Contact our expert team for a consultation tailored to your academic goals.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-16">
+                <!-- Contact Form -->
+                <div class="bg-white p-10 rounded-2xl professional-shadow-lg fade-in-up">
+                    <h4 class="text-2xl font-bold text-gray-900 mb-8 font-display">Get Professional Consultation</h4>
+                    <form class="space-y-6" onsubmit="handleFormSubmit(event)">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-3">Full Name *</label>
+                                <input type="text" name="name" required class="w-full px-4 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-3">Email Address *</label>
+                                <input type="email" name="email" required class="w-full px-4 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-3">Phone Number</label>
+                            <input 
+                            type="text" 
+                            name="phone" 
+                            maxlength="10" 
+                            oninput="this.value = this.value.replace(/[^0-9]/g, '');"
+                            placeholder="Enter your phone number"
+                            class="w-full px-4 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                            required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-3">Service Required *</label>
+                            <select name="service" required class="w-full px-4 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+                                <option value="">Select a service...</option>
+                                <option>Research Paper Writing</option>
+                                <option>Academic Book Publishing</option>
+                                <option>Editorial & Formatting</option>
+                                <option>Statistical Analysis</option>
+                                <option>Literature Review</option>
+                                <option>Thesis Support</option>
+                                <option>Grant Proposal Writing</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-3">Project Details *</label>
+                            <textarea rows="5" name="details" required class="w-full px-4 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" placeholder="Please describe your research requirements, timeline, target journals, and any specific guidelines..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full professional-btn text-white py-4 px-6 rounded-lg font-semibold text-lg professional-shadow">
+                            <i class="fas fa-paper-plane mr-2"></i>Send Consultation Request
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="space-y-8 fade-in-up">
+                    <div>
+                        <h4 class="text-2xl font-bold text-gray-900 mb-8 font-display">Contact Information</h4>
+                        <div class="space-y-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-envelope text-xl text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-semibold text-gray-900 mb-2">Email</h5>
+                                    <a href="mailto:teamelitepublications@gmail.com" class="text-blue-600 hover:text-blue-700 font-medium">teamelitepublications@gmail.com</a>
+                                    <p class="text-gray-600 text-sm mt-1">Response within 2 hours</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i class="fab fa-whatsapp text-xl text-green-600"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-semibold text-gray-900 mb-2">WhatsApp</h5>
+                                    <a href="https://wa.me/919363046743" class="text-green-600 hover:text-green-700 font-medium">+91 9363046743</a>
+                                    <p class="text-gray-600 text-sm mt-1">Instant consultation</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-phone text-xl text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-semibold text-gray-900 mb-2">Phone</h5>
+                                    <a href="tel:6369953382" class="text-blue-600 hover:text-blue-700 font-medium">+91 6369953382</a>
+                                    <p class="text-gray-600 text-sm mt-1">Direct consultation</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-4">
+                                <div class="w-14 h-14 bg-pink-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i class="fab fa-instagram text-xl text-pink-600"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-semibold text-gray-900 mb-2">Instagram</h5>
+                                    <a href="https://www.instagram.com/team_elite_publications?igsh=bmRlcGV0cjg0Zjhm" target="_blank" class="text-pink-600 hover:text-pink-700 font-medium">@team_elite_publications</a>
+                                    <p class="text-gray-600 text-sm mt-1">Follow for updates</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Professional CTA -->
+                    <div class="professional-gradient p-8 rounded-2xl text-white professional-shadow-lg">
+                        <h5 class="text-xl font-semibold mb-4 font-display">Ready to Collaborate?</h5>
+                        <p class="mb-6 opacity-90 leading-relaxed">
+                            Join researchers worldwide who trust us with their academic publishing needs. Let's discuss how we can help achieve your research goals.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="mailto:teamelitepublications@gmail.com" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all text-center">
+                                <i class="fas fa-envelope mr-2"></i>Email Consultation
+                            </a>
+                            <a href="https://wa.me/919363046743" class="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all text-center">
+                                <i class="fab fa-whatsapp mr-2"></i>WhatsApp Chat
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Business Hours -->
+                    <div class="bg-white p-8 rounded-2xl professional-shadow">
+                        <h5 class="text-lg font-semibold text-gray-900 mb-4">Business Hours</h5>
+                        <div class="space-y-3 text-gray-600">
+                            <div class="flex justify-between">
+                                <span>Monday - Friday:</span>
+                                <span class="font-medium">9:00 AM - 8:00 PM IST</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Saturday:</span>
+                                <span class="font-medium">10:00 AM - 6:00 PM IST</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Sunday:</span>
+                                <span class="font-medium">Emergency Support</span>
+                            </div>
+                        </div>
+                        <div class="mt-4 p-3 bg-green-50 rounded-lg border border-green-200">
+                            <p class="text-sm text-green-700"><i class="fas fa-clock mr-2"></i>24/7 WhatsApp support for urgent queries</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container-max">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div class="w-14 h-14 professional-gradient rounded-xl flex items-center justify-center professional-shadow">
+                            <span class="text-white font-bold text-xl">TEP</span>
+                        </div>
+                        <div>
+                            <h6 class="text-2xl font-bold font-display">Team Elite Publications</h6>
+                            <p class="text-gray-400">Academic Research & Publishing Excellence</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed mb-6 max-w-md">
+                        Delivering world-class academic publishing services with a commitment to research excellence, quality assurance, and international standards.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.instagram.com/team_elite_publications?igsh=bmRlcGV0cjg0Zjhm" target="_blank" class="w-10 h-10 bg-pink-600 rounded-lg flex items-center justify-center hover:bg-pink-700 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:teamelitepublications@gmail.com" class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://wa.me/919363046743" class="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center hover:bg-green-700 transition-colors">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h6 class="text-lg font-semibold mb-6">Services</h6>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><a href="#services" class="hover:text-white transition-colors">Research Paper Writing</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Academic Book Publishing</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Editorial & Formatting</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Statistical Analysis</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Literature Review</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Thesis Support</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h6 class="text-lg font-semibold mb-6">Contact</h6>
+                    <ul class="space-y-3 text-gray-400 text-sm">
+                        <li><i class="fas fa-envelope mr-2"></i>teamelitepublications@gmail.com</li>
+                        <li><i class="fas fa-phone mr-2"></i>+91 9363046743</li>
+                        <li><i class="fas fa-phone mr-2"></i>+91 6369953382</li>
+                        <li><i class="fab fa-instagram mr-2"></i>@team_elite_publications</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 mb-4 md:mb-0">&copy; 2024 Team Elite Publications. All rights reserved.</p>
+                    <div class="flex space-x-6 text-sm text-gray-400">
+                        <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                        <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                        <a href="#contact" class="hover:text-white transition-colors">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <a href="https://wa.me/919363046743" target="_blank" class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full professional-shadow-lg transition-all duration-300 transform hover:scale-110">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+    </div>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeMobileMenu = document.getElementById('close-mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+        });
+
+        closeMobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.remove('active');
+        });
+
+        // Close mobile menu when clicking on links
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling functions
+        function scrollToContact() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function scrollToServices() {
+            document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Form submission handler
+const scriptURL = "https://script.google.com/macros/s/AKfycbxTxCDulmZSLPpbUT7VE0EIHi2n4FCGspKUsyPlJre_S9HekRXVhEOYhq5AqfIKZsQ/exec"; // must end with /exec
+
+function handleFormSubmit(event) {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
+    const data = Object.fromEntries(formData.entries());
+
+    fetch(scriptURL, {
+        method: "POST",
+        mode: "no-cors",   // 👈 avoids Google CORS block
+        body: JSON.stringify(data),
+        headers: { "Content-Type": "application/json" }
+    })
+    .then(() => {
+        // ✅ Show popup instantly (no delay)
+        alert("✅ Thank you! Your request has been submitted.");
+        event.target.reset();
+    })
+    .catch(err => {
+        console.error("Error:", err);
+        alert("⚠️ Network error, please try again.");
+    });
+}
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.classList.add('backdrop-blur-sm', 'bg-white/95');
+            } else {
+                header.classList.remove('backdrop-blur-sm', 'bg-white/95');
+            }
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all fade-in elements
+        document.querySelectorAll('.fade-in-up').forEach(element => {
+            observer.observe(element);
+        });
+
+        // Counter animation for statistics
+        function animateCounters() {
+            const counters = document.querySelectorAll('.stats-counter');
+            counters.forEach(counter => {
+                const target = parseInt(counter.textContent);
+                const increment = target / 100;
+                let current = 0;
+                
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        counter.textContent = target + (counter.textContent.includes('%') ? '%' : '+');
+                        clearInterval(timer);
+                    } else {
+                        counter.textContent = Math.floor(current) + (counter.textContent.includes('%') ? '%' : '+');
+                    }
+                }, 20);
+            });
+        }
+
+        // Trigger counter animation when statistics section is visible
+        const statsSection = document.querySelector('.professional-gradient');
+        if (statsSection) {
+            const statsObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateCounters();
+                        statsObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            statsObserver.observe(statsSection);
+        }
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9761578741d87f71',t:'MTc1NjM1ODI0Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
